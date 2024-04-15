@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: linear-gradient(to left, lightblue, lightgreen);
+  font-family: "Courier New", Courier, monospace;
+}
+body .note {
+  color: darkblue;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 38px;
+}
+body .info {
+  text-align: center;
+  color: darkblue;
+  font-size: 20px;
+}
+body .newNotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 40px;
+  justify-content: center;
+  padding: 50px;
+}
+body .newNotes button {
+  height: 200px;
+  border-color: rgba(255, 255, 255, 0.37);
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 15px;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+body .newNotes button:hover {
+  background: rgba(255, 255, 255, 0.55);
+  color: rgba(0, 0, 0, 0.6);
+  transition: all 300ms ease;
+}
